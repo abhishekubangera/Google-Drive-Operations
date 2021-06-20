@@ -11,7 +11,7 @@ setup(
     description='Minimal class for Google Drive Operations',
     author='Abhishek U Bangera',
     author_email='ubangera.abhishek89@gmail.com',
-    url='',
+    url='https://github.com/abhishekubangera/Google-Drive-Operations',
     entry_points={
         "console_scripts": ["gdd = gdo.gdd:main"],
     },
