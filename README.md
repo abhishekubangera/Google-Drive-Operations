@@ -41,9 +41,17 @@ If you want to execute test cases follow,
      
      OR, Download Zip and extract.
 
+  * Install requirements by executing, 
+  
+    - cd Google-Drive-Operations\
+  
+    - python -m pip install -U pip
+  
+    - python -m pip install -U -e .
+
   * For executing test cases,
   
-  cd Google-Drive-Operations\tests
+    - cd Google-Drive-Operations\tests
   
   > python -m robot.run -v CLIENT_SECRET:"C:/AUB/client_secret.json" -v FILE_ID:"xxxxxxxxHR0S2wxYWc" -v PATH:"C:/AUB/" gdd.robot
   
