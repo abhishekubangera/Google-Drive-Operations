@@ -33,3 +33,23 @@ Execution Instructions
 	*Example:
         
 		> gdd -i "xxxxxxxxHR0S2wxYWc" -c "C:\AUB\client_secret.json" -f "C:\AUB\"
+
+If you want to execute test cases follow,
+  * Clone the Repo by executing command,
+  
+     ```git clone https://github.com/abhishekubangera/Google-Drive-Operations.git```
+     
+     OR, Download Zip and extract.
+
+  * For executing test cases,
+  
+  cd Google-Drive-Operations\tests
+  
+  > python -m robot.run -v CLIENT_SECRET:"C:/AUB/client_secret.json" -v FILE_ID:"xxxxxxxxHR0S2wxYWc" -v PATH:"C:/AUB/" gdd.robot
+  
+  The above command will execute all test cases in the suite "gdd.robot".
+  To execute particular test case,
+  
+  > python -m robot.run -v CLIENT_SECRET:"C:/AUB/client_secret.json" -v FILE_ID:"xxxxxxxxHR0S2wxYWc" -v PATH:"C:/AUB/" -t "test case name" gdd.robot
+
+  

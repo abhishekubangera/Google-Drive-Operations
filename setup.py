@@ -19,6 +19,7 @@ setup(
         "google-api-python-client",
         "google-auth-httplib2",
         "google-auth-oauthlib",
+        "robotframework",
     ],
     packages=find_packages()
 )
